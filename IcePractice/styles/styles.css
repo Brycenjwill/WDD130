@@ -1,0 +1,54 @@
+html{
+    background-color: #FAA7C9;
+}
+h1:hover{
+    color:black;
+}
+div.head{
+    margin: 0 auto;
+    width: 45%;;
+}
+header{
+    color: white;
+    
+}
+h2 {
+    font-size: .6em;
+}
+img{
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.container{
+    text-align: center;
+}
+.in{
+    display: inline-block;
+    text-align: left;
+}
+.center{
+    text-align: center;
+}
+ol{
+    font-weight: bold;
+    font-size: 1em;
+}
+div.para1{
+   
+    margin: 0 auto;
+    width: 30%;
+    
+}
+p1{
+    font-size: 1.5em;
+    display: inline-block;
+    color: white;;
+    text-align: center;
+}
+p2{
+    display: inline-block;
+    text-align: center;
+}
