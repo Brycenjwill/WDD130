@@ -68,6 +68,16 @@ p {
   color: var(--paragraph-color);
   padding: 1em;
 }
+h4{
+  text-align: center;
+}
+.home-title{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.msg h2{
+  font-family: 'Times New Roman', Times, serif;
+}
 .colors {
   width: 100%;
   min-width: 350px;

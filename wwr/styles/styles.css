@@ -1,11 +1,27 @@
+
 #content{
     max-width: 1600;
     margin: 0 auto;
+    
+}
+main section img{
+    box-sizing: border-box;
+}
+body{
+    background-color: #7F9183;
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 nav a{
 text-align: center;
 color: black;
 text-decoration: none;
+padding: 35px;
 }
 #hero-box{
 text-align: center;
@@ -35,11 +51,17 @@ nav a:hover{
     background-color: white;
     color:black;
     text-decoration: none;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join{
     background-color: #7F9183;
     color: black;
     text-decoration: none;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #B8B8AA;
@@ -51,16 +73,21 @@ nav a:hover{
 }
 .msg{
     background-color: #586F6B;
+    line-height: 1.5em;
+    padding-top: 10px;
 }
 .msg h2{
     color:black;
 }
 .msg p{
     color: black;
+    padding-bottom: 15px;
 }
 footer{
     background-color: #586F6B;
     color:#DDD5D0;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: black;
@@ -71,9 +98,11 @@ footer a:hover{
 }
 .home-title{
     color:#7F9183;
+    margin-top: 10px;
 }
 h4{
-    color: #586F6B;
+    color: black;
+    font-size: 1.3em;
 }
 .icon{
     width: 80px;
@@ -89,4 +118,22 @@ footer p{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+.home-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+.msg h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.card-img{
+    border: 10px;
+    border-color: black;
 }
