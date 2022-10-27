@@ -11,14 +11,16 @@ main section img{
 }
 body{
     background-color: #7F9183;
-    text-align: center;
     font-size: 22px;
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
 }
 h2{
-    margin: 0;
+    text-align: center;
+}
+h4{
+    text-align: center;
 }
 nav a{
 text-align: center;
@@ -30,9 +32,7 @@ padding: 35px;
 text-align: center;
 width: 100%;
 }
-main{
-    text-align: center;
-}
+
 .button-box{
     text-align: center;
 }
@@ -95,9 +95,11 @@ footer a:hover{
     color: white;
 }
 .home-title{
-    color:#7F9183;
+    color:black;
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
 }
 h4{
     color: black;
@@ -123,6 +125,9 @@ footer p a:hover{
     font-size: 2em;
     margin-top: 10px;
 }
+.msg {
+    text-align: center;
+}
 .msg h2{
     font-family: 'Times New Roman', Times, serif;
 }
@@ -131,23 +136,23 @@ footer p a:hover{
 }
 
 .card-img{
-    border: 50px;
-    border-color: black;
+    
+    border: 10px solid black;
 }
 .rivers-card{
+    text-align: center;
     margin-top: 200px;
-    border: 50px;
-    border-color: black;
+   
 }
 .camping-card{
+    text-align: center;
     margin-top: 200px;
-    border: 50px;
-    border-color: black;
+ 
 }
 .rapids-card{
+    text-align: center;
     margin-top: 200px;
-    border: 50px;
-    border-color: black;
+  
 }
 footer .social img{
     padding-top: 15px;
