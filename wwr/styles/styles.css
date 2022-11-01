@@ -22,15 +22,15 @@ h2{
 h4{
     text-align: center;
 }
+nav{
+    display: flex;
+    justify-content: space-around;
+}
 nav a{
 text-align: center;
-color: black;
+color: white;
 text-decoration: none;
 padding: 35px;
-}
-#hero-box{
-text-align: center;
-width: 100%;
 }
 
 .button-box{
@@ -38,21 +38,26 @@ width: 100%;
 }
 #background{
     height:725px;
-    background-color: #586F6B;
+    background-color: #B8B8AA;
+    grid-column: 1/11;
+    grid-row: 4/9;
 }
 body{
     background-color: #7F9183;
 }
 header {
-    background-color: #586F6B;
+    background-color: rgba(88, 111, 107, .5);
+    background: rgba();
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 nav a:hover{
-    background-color: black;
+    background-color: #586F6B;
     color: white;
 }
 .book, .join{
-    background-color: white;
-    color:black;
+    background-color: #586F6B;
+    color:white;
     text-decoration: none;
     padding: 15px;
     margin-top: 50px;
@@ -70,9 +75,11 @@ main section img{
     color:white;
 }
 .msg{
-    background-color: #586F6B;
+    background-color: #DDD5D0 ;
     line-height: 1.5em;
     padding-top: 10px;
+    grid-column: 6/10;
+    grid-row: 6/7;
 }
 .msg h2{
     color:black;
@@ -86,13 +93,21 @@ footer{
     color:#DDD5D0;
     padding: 25px 50px;
     margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 footer a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 footer a:hover{
-    color: white;
+    color: #B8B8AA;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
 }
 .home-title{
     color:black;
@@ -111,50 +126,142 @@ h4{
 .logo{
     width:80px;
 }
+#hero
+{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box{
+    text-align: center;
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+    }
+
 #hero-img{
     width: 100%;
 }
+#hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    margin-top: 100px;
+
+}
+#hero-msg h4{
+    color: white;
+}
 footer p{
+
     font-size: 1.3em;
 }
 footer p a:hover{
     text-decoration: underline;
 }
 .home-title{
+    color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 2em;
     margin-top: 10px;
 }
 .msg {
     text-align: center;
+    box-shadow: 5px 5px 10px #7F9183;
 }
 .msg h2{
     font-family: 'Times New Roman', Times, serif;
 }
 #logo_link{
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 .card-img{
-    
+    width: 100%;
     border: 10px solid black;
+    border: 10px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #586F6B;
 }
+
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+             
 .rivers-card{
     text-align: center;
     margin-top: 200px;
-   
+    grid-column: 2/4;
+    grid-row: 2/3;
 }
 .camping-card{
     text-align: center;
     margin-top: 200px;
+    grid-column: 5/7;
+    grid-row: 2/3;
  
 }
 .rapids-card{
     text-align: center;
     margin-top: 200px;
+    grid-column: 8/10;
+    grid-row: 2/3;
   
 }
+.mountains{
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #586F6B;
+}
+
 footer .social img{
     padding-top: 15px;
     margin-top: 200px;
 }
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
+            
