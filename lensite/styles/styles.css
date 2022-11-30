@@ -1,0 +1,99 @@
+body {
+    background-color: #84A59D;
+}
+p{
+    font-family: URW Chancery L, cursive;
+}
+#head-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.nav-bar{
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    text-align: center;
+}
+.nav-bar a{
+    font-family: Lucida Handwriting, Lucida Console;
+    color: black;
+    padding: 1em;
+    width: 33%;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 3em;
+}
+#title{
+    font-family: Lucida Handwriting, Lucida Console;;
+    text-align: center;
+    font-size: 5em;
+    margin-top: 3%;
+}
+.scrollable{
+    height: 1%;
+}
+.main-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.main-info p{
+    grid-column: 1;
+    font-size: 5em;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 15%;
+}
+#mid-img{
+    grid-column: 2;
+    height: 50%;
+    padding-left: 30%;
+    margin-top: 20%;
+}
+.third{
+    grid-column: 3;
+    display: grid;
+ 
+    grid-template-rows: 1fr 1fr;
+}
+#right-img{
+    grid-row: 2;
+    height: 100%;
+    margin-top: 35%;
+    margin-left: 25%;
+}
+.main-info a{
+    grid-row: 1;
+    text-align: center;
+    margin-top: 50%;
+    font-size: 5em;
+    justify-self: center;
+    height: 25%;
+    font-family: Lucida Handwriting, Lucida Console;
+    color: black;
+}
+footer{
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 40%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+footer a{
+    font-family: Lucida Handwriting, Lucida Console;
+    color: black;
+    padding: 1em;
+    width: 20%;
+    padding: 5%;
+    text-decoration: none;
+    font-size: 3em;
+}
