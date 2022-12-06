@@ -1,17 +1,13 @@
 body {
     background-color: #84A59D;
+    margin: 0;
 }
 p{
     font-family: URW Chancery L, cursive;
 }
-#head-logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
+
 .nav-bar{
-    background-color: white;
+    background-color: rgb(255, 255, 255, .5);
     overflow: hidden;
     width: 100%;
     display: flex;
@@ -35,26 +31,29 @@ nav{
     font-size: 5em;
     margin-top: 3%;
 }
-.scrollable{
-    height: 1%;
+.scrollable img{
+    width: 100%;
 }
 .main-info{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
 }
 .main-info p{
     grid-column: 1;
-    font-size: 5em;
+    font-size: 2.5em;
     margin-left: 10%;
     text-align: center;
     margin-top: 15%;
 }
-#mid-img{
+#mid-img {
+    margin-left: 15%;
+    margin-top: 80%;
+    height: 50%;
+}
+#mid-img img{
     grid-column: 2;
     height: 50%;
-    padding-left: 30%;
-    margin-top: 20%;
+
 }
 .third{
     grid-column: 3;
@@ -62,7 +61,12 @@ nav{
  
     grid-template-rows: 1fr 1fr;
 }
-#right-img{
+#right-img {
+    margin-left: 18%;
+    margin-top: 60%;
+    height: 80%;
+}
+#right-img img{
     grid-row: 2;
     height: 100%;
     margin-top: 35%;
@@ -71,12 +75,26 @@ nav{
 .main-info a{
     grid-row: 1;
     text-align: center;
-    margin-top: 50%;
-    font-size: 5em;
+
+    font-size: 2.5em;
     justify-self: center;
     height: 25%;
     font-family: Lucida Handwriting, Lucida Console;
     color: black;
+    margin-top: 90%;
+
+
+}
+#head-logo{
+    grid-column: 2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 50px;
+}
+#head-logo img{
+    width: 200%;
 }
 footer{
     overflow: hidden;
@@ -84,9 +102,6 @@ footer{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    height: 40%;
-    padding-top: 10%;
-    padding-bottom: 10%;
 }
 footer a{
     font-family: Lucida Handwriting, Lucida Console;
@@ -95,5 +110,5 @@ footer a{
     width: 20%;
     padding: 5%;
     text-decoration: none;
-    font-size: 3em;
+    font-size: 1.5em;
 }
