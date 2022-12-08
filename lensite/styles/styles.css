@@ -161,7 +161,61 @@ nav{
     margin-right: auto;
     margin-bottom: 10%;
 }
+.contacts{
+    text-align: center;
+    font-size: 2.5em;
+    text-decoration: underline;
+    margin-top: 10%;
+}
+.contact-page{
+    display: grid;
+    grid-column: 1fr 1fr;
+    margin: 10%;
+    column-gap: 5%;
+}
+.contact-page p{
+    font-size: 1.5em;
+}
+#hero-msg{
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 5% 25% 0px 25%;
+}
 
+#google-form-p{
+    grid-column: 1;
+    grid-row: 3;
+    text-align: center;
+    margin-top: 25%;
+}
+#instagram-link{
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 25%;
+    margin-top: 7%;
+}
+#facebook-link {
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 5%;
+}
+#google-img {
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 50%;
+    margin-left: 44%;
+
+}
+
+#google-img img{
+    width: 25%;
+}
+
+#facebook-link img{
+    width: 85%;
+}
 
 footer{
     overflow: hidden;
