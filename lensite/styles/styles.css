@@ -104,7 +104,7 @@ nav{
 }
 .gallery{
     display: grid;
-    grid-column: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     row-gap: 20%;
     margin: 10%;
     margin-bottom: 20%;
